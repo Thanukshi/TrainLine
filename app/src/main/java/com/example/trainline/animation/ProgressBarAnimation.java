@@ -32,5 +32,10 @@ public class ProgressBarAnimation extends Animation {
         float value = fromTime + (toTime - fromTime) * interpolatedTime;
         progressBar.setProgress((int)value);
         textView.setText((int)value + " %");
+
+        //Checking Progress
+        if (value == toTime){
+            context.startActivities(context,LoginActivity.class);
+        }
     }
 }
