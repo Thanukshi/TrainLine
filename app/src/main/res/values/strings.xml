@@ -8,4 +8,5 @@
     <string name="guestBtn">LOGIN AS GUEST</string>
     <string name="reg">Don\'t Have An Account?<a href="https://learntodroid.com">Sign-Up Now</a></string>
     <string name="logo">Logo</string>
+    <string name="topic">Train Line</string>
 </resources>
