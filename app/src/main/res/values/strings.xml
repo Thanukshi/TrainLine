@@ -6,6 +6,7 @@
     <string name="loginBtn">LOGIN</string>
     <string name="signInBtn">SIGN IN</string>
     <string name="guestBtn">LOGIN AS GUEST</string>
-    <string name="reg">Don\'t Have An Account?<a href="https://learntodroid.com">Sign-Up Now</a></string>
+    <string name="scanQr">Scan QR Code</string>
+    <string name="reg">Don\'t Have An Account?<a href="">Sign-Up Now</a></string>
     <string name="logo">Logo</string>
 </resources>
