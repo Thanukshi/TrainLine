@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">TrainLine</string>
     <string name="barValue">0 %</string>
+    <string name="userName">User Name</string>
+    <string name="passWord">Password</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="signInBtn">SIGN IN</string>
+    <string name="guestBtn">LOGIN AS GUEST</string>
+    <string name="reg">Don\'t Have An Account?<a href="https://learntodroid.com">Sign-Up Now</a></string>
+    <string name="logo">Logo</string>
 </resources>
