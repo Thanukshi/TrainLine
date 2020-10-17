@@ -17,7 +17,7 @@ public class ProgressBarAnimation extends Animation {
     private float toTime;
 
     //declare the constructor bar function
-    public ProgressBarAnimation(Context context, AttributeSet attrs, Context context1, ProgressBar progressBar, TextView textView, float fromTime, float toTime) {
+    public ProgressBarAnimation(Context context, ProgressBar progressBar, TextView textView, float fromTime, float toTime) {
         this.context = context;
         this.progressBar = progressBar;
         this.textView = textView;

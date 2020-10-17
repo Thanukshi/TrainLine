@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.example.trainline.animation.ProgressBarAnimation;
+
 public class MainActivity extends AppCompatActivity {
 
     //Declare Component in activity_main
@@ -20,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.pBarWelcome);
         textView = findViewById(R.id.text1);
 
+    }
+
+    //Call the constructor of Progress
+    public void ProgressBarAnimation(){
+        ProgressBarAnimation barAnimation = new ProgressBarAnimation(this, progressBar, textView, 0f, 100f);
     }
 }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TrainLine</string>
+    <string name="barValue">0 %</string>
 </resources>
