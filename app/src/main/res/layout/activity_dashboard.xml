@@ -20,10 +20,22 @@
                 android:id="@+id/image1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:src="@drawable/ic_baseline_menu_24"
                 android:padding="15dp"
                 android:layout_centerVertical="true"
                 android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/aclonica"
+                android:text="@string/topic"
+                android:textSize="36sp"
+                android:textAllCaps="true"
+                android:padding="10dp"
+                android:textColor="@color/topicColor"
+                android:layout_centerHorizontal="true"/>
 
             <ImageView
                 android:id="@+id/image2"
@@ -36,15 +48,7 @@
                 android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:fontFamily="@font/aclonica"
-            android:text="@string/topic"
-            android:textSize="36sp"
-            android:textAllCaps="true"
-            android:padding="10dp" />
 
     </LinearLayout>
 
