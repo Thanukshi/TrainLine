@@ -1,11 +1,13 @@
 package com.example.trainline.animation;
 
 import android.content.Context;
-import android.util.AttributeSet;
+import android.content.Intent;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.example.trainline.LoginActivity;
 
 public class ProgressBarAnimation extends Animation {
 
@@ -35,7 +37,7 @@ public class ProgressBarAnimation extends Animation {
 
         //Checking Progress
         if (value == toTime){
-            context.startActivities(context,LoginActivity.class);
+            context.startActivity(new Intent(context, LoginActivity.class));
         }
     }
 }
