@@ -18,4 +18,10 @@
     <string name="finished">Finished</string>
     <string name="to_do_admin">To Do Admin</string>
     <string name="add_train_schedule">Train Schedule</string>
+    <string name="start_station">Start Station</string>
+    <string name="end_station">End Station</string>
+    <string name="destination">Destination(Km)</string>
+    <string name="price_of_ticket_rs">Price of Ticket(Rs.)</string>
+    <string name="type_of_train">Type of Train</string>
+    <string name="departure_time">Departure Time</string>
 </resources>
