@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient_welcome"
     tools:context=".TrainSchedule">
+
 
     <LinearLayout
         android:id="@+id/ll1"
@@ -29,14 +29,14 @@
                 android:textColor="@color/topicColor"/>
 
             <ImageView
-                android:id="@+id/image1_ts"
+                android:id="@+id/image_ts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_arrow_back"
-                android:padding="15dp"
-                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_centerVertical="true"
+                android:padding="20dp"
+                android:background="@drawable/ic_baseline_arrow_back" />
 
         </RelativeLayout>
 
@@ -212,4 +212,6 @@
         </RelativeLayout>
 
     </LinearLayout>
+
+
 </ScrollView>
