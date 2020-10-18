@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient_welcome"
-    tools:context=".TrainSchedule">
-
+    tools:context=".SeatBook">
 
     <LinearLayout
         android:id="@+id/ll1"
@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/aclonica"
-                android:text="Train Schedule"
+                android:text="@string/seat_booking"
                 android:textSize="30sp"
                 android:textAllCaps="true"
                 android:padding="10dp"
@@ -54,12 +54,14 @@
                 android:textColor="#ffffff"
                 android:textSize="20sp"/>
 
-            <EditText
-                android:id="@+id/et1_ad"
+            <Spinner
+                android:id="@+id/sp1_ad"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
                 android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
                 android:fontFamily="@font/baloo"
                 android:textColor="#ffffff"/>
 
@@ -79,12 +81,14 @@
                 android:textColor="#ffffff"
                 android:textSize="20sp"/>
 
-            <EditText
-                android:id="@+id/et2_ad"
+            <Spinner
+                android:id="@+id/sp2_ad"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
                 android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
                 android:fontFamily="@font/baloo"
                 android:textColor="#ffffff"/>
 
@@ -105,57 +109,7 @@
                 android:textSize="20sp"/>
 
             <EditText
-                android:id="@+id/et3_ad"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/edittextbox1"
-                android:fontFamily="@font/baloo"
-                android:textColor="#ffffff"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="-15dp"
-            android:padding="15dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/destination"
-                android:fontFamily="@font/baloo"
-                android:textColor="#ffffff"
-                android:textSize="20sp"/>
-
-            <EditText
-                android:id="@+id/et4_ad"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/edittextbox1"
-                android:fontFamily="@font/baloo"
-                android:textColor="#ffffff"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="-15dp"
-            android:padding="15dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/price_of_ticket_rs"
-                android:fontFamily="@font/baloo"
-                android:textColor="#ffffff"
-                android:textSize="20sp"/>
-
-            <EditText
-                android:id="@+id/et5_ad"
+                android:id="@+id/et1_ad"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="30dp"
@@ -179,8 +133,35 @@
                 android:textColor="#ffffff"
                 android:textSize="20sp"/>
 
-            <EditText
-                android:id="@+id/et6_ad"
+            <Spinner
+                android:id="@+id/sp4_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="-15dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/destination"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv1_ad"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="30dp"
@@ -196,12 +177,94 @@
             android:layout_marginTop="-15dp"
             android:padding="15dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_of_ticket_rs"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv2_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="-15dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/count_of_passengers"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/et2_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
+                android:fontFamily="@font/baloo"
+                android:inputType="number"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="-15dp"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_amount"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv3_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/edittextbox1"
+                android:dropDownSelector="#ffffff"
+                android:fontFamily="@font/baloo"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="-15dp"
+            android:padding="15dp">
+
             <Button
-                android:id="@+id/add_ts"
+                android:id="@+id/book_seat"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:padding="5dp"
-                android:text="@string/add_new_schedule"
+                android:text="@string/book_now"
                 android:background="@drawable/btn"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
@@ -212,6 +275,5 @@
         </RelativeLayout>
 
     </LinearLayout>
-
 
 </ScrollView>
