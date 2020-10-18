@@ -59,11 +59,29 @@ public class SeatBook extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot childSnapshot: snapshot.getChildren()){
-                    startStationName.add(childSnapshot.child("endStation").getValue(String.class));
+                    endStationName.add(childSnapshot.child("endStation").getValue(String.class));
                 }
                 ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(SeatBook.this, R.layout.style_spinner,endStationName);
                 arrayAdapter.setDropDownViewResource(R.layout.style_spinner);
-                startStation.setAdapter(arrayAdapter);
+                endStation.setAdapter(arrayAdapter);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+        reference = FirebaseDatabase.getInstance().getReference();
+        reference.child("TrainSchedule").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot childSnapshot: snapshot.getChildren()){
+                    depTime.add(childSnapshot.child("trainType").getValue(String.class));
+                }
+                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(SeatBook.this, R.layout.style_spinner,depTime);
+                arrayAdapter.setDropDownViewResource(R.layout.style_spinner);
+                typeOfTrain.setAdapter(arrayAdapter);
             }
 
             @Override
