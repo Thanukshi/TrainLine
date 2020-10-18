@@ -30,4 +30,8 @@
     <string name="nic">NIC number</string>
     <string name="passWordComfirm">Comfirm Password</string>
     <string name="email">Email</string>
+    <string name="seat_booking">Seat Booking</string>
+    <string name="count_of_passengers">Count of Passengers</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="book_now">Book Now</string>
 </resources>
