@@ -14,4 +14,6 @@
     <string name="trips">Trips</string>
     <string name="receipts">Receipts</string>
     <string name="history">History</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="finished">Finished</string>
 </resources>
