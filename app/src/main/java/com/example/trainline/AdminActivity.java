@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Dashboard extends AppCompatActivity {
+public class AdminActivity extends AppCompatActivity {
 
-    Button bookingBtn;
+    Button trainSchedule;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_admin);
 
-        bookingBtn = findViewById(R.id.booking);
+        trainSchedule = findViewById(R.id.tSchedule);
 
-        bookingBtn.setOnClickListener(new View.OnClickListener() {
+        trainSchedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent booking = new Intent(Dashboard.this, BookingActivity.class);
-                startActivity(booking);
+                Intent scheduleTrain = new Intent(AdminActivity.this, TrainShcedule.class);
+                startActivity(scheduleTrain);
             }
         });
     }

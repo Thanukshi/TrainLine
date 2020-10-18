@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "206450491282",
+    "firebase_url": "https://trainline-20e28.firebaseio.com",
+    "project_id": "trainline-20e28",
+    "storage_bucket": "trainline-20e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206450491282:android:bc5a4929dbc5cf11590b4b",
+        "android_client_info": {
+          "package_name": "com.example.trainline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206450491282-jcpsv74ikot56p1qgdbj1iu9h1kjc0qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1wVivAtxzPq-tdVE0KSNx5NhjnXd6C-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206450491282-jcpsv74ikot56p1qgdbj1iu9h1kjc0qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

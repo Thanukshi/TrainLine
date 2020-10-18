@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient_welcome"
-    tools:context=".Dashboard">
-    
+    tools:context=".AdminActivity">
+
     <LinearLayout
         android:id="@+id/ll1"
         android:layout_width="match_parent"
@@ -17,51 +17,33 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/image1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_menu_24"
-                android:padding="15dp"
-                android:layout_centerVertical="true"
-                android:contentDescription="TODO" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:fontFamily="@font/aclonica"
-                android:text="@string/topic"
+                android:text="@string/to_do_admin"
                 android:textSize="36sp"
                 android:textAllCaps="true"
                 android:padding="10dp"
                 android:textColor="@color/topicColor"
                 android:layout_centerHorizontal="true"/>
 
-            <ImageView
-                android:id="@+id/image2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_search_24"
-                android:padding="15dp"
-                android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="15dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
             android:padding="15dp">
 
             <Button
-                android:id="@+id/booking"
+                android:id="@+id/tSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@drawable/btn"
-                android:text="@string/booking"
-                android:textSize="40dp"
+                android:text="@string/add_train_schedule"
+                android:textSize="25dp"
                 android:textColor="@color/topicColor"/>
 
 
@@ -69,8 +51,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="2dp"
             android:padding="15dp">
 
             <Button
@@ -86,8 +68,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="2dp"
             android:padding="15dp">
 
             <Button
@@ -103,8 +85,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="2dp"
             android:padding="15dp">
 
             <Button

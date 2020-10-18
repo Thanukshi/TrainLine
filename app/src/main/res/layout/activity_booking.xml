@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient_welcome"
-    tools:context=".Dashboard">
-    
+    tools:context=".BookingActivity">
+
     <LinearLayout
         android:id="@+id/ll1"
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:id="@+id/image1"
+                android:id="@+id/image1_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_menu_24"
@@ -29,7 +29,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:fontFamily="@font/aclonica"
                 android:text="@string/topic"
                 android:textSize="36sp"
@@ -39,7 +38,7 @@
                 android:layout_centerHorizontal="true"/>
 
             <ImageView
-                android:id="@+id/image2"
+                android:id="@+id/image2_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_search_24"
@@ -51,12 +50,28 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/booking"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#ffffff"
+                android:textSize="30sp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:padding="15dp">
 
             <Button
-                android:id="@+id/booking"
+                android:id="@+id/booking_b"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@drawable/btn"
@@ -74,11 +89,11 @@
             android:padding="15dp">
 
             <Button
-                android:id="@+id/trip"
+                android:id="@+id/confirm"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@drawable/btn"
-                android:text="@string/trips"
+                android:text="@string/confirmed"
                 android:textSize="40dp"
                 android:textColor="@color/topicColor"/>
 
@@ -91,33 +106,17 @@
             android:padding="15dp">
 
             <Button
-                android:id="@+id/receipt"
+                android:id="@+id/finish"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@drawable/btn"
-                android:text="@string/receipts"
-                android:textSize="40dp"
-                android:textColor="@color/topicColor"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="5dp"
-            android:padding="15dp">
-
-            <Button
-                android:id="@+id/history"
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@drawable/btn"
-                android:text="@string/history"
+                android:text="@string/finished"
                 android:textSize="40dp"
                 android:textColor="@color/topicColor"/>
 
         </RelativeLayout>
 
     </LinearLayout>
+
 
 </ScrollView>
