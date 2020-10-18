@@ -16,7 +16,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        bookingBtn = findViewById(R.id.booking);
+//        bookingBtn = findViewById(R.id.booking);
 
         bookingBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -13,14 +13,18 @@
         <activity android:name=".Dashboard" />
         <activity android:name=".BookingActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".TrainShcedule">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
+<!--        <activity android:name=".TrainShcedule">-->
+<!--            -->
+<!--        </activity>-->
 
         <meta-data
             android:name="preloaded_fonts"

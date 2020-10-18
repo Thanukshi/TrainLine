@@ -7,7 +7,7 @@
     <string name="signInBtn">SIGN IN</string>
     <string name="guestBtn">LOGIN AS GUEST</string>
     <string name="scanQr">Scan QR Code</string>
-    <string name="reg">Don\'t Have An Account?<a href="">Sign-Up Now</a></string>
+    <string name="reg">Don\'t Have An Account?Sign-Up Now!!</string>
     <string name="logo">Logo</string>
     <string name="topic">Train Line</string>
     <string name="booking">Booking</string>
@@ -33,4 +33,5 @@
     <string name="passenger">" Passenger"</string>
     <string name="driver">Driver</string>
     <string name="passenger1">Passenger</string>
+    <string name="SignIn">Sign In</string>
 </resources>
