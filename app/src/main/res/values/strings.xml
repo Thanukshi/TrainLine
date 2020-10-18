@@ -26,4 +26,8 @@
     <string name="type_of_train">Type of Train</string>
     <string name="departure_time">Departure Time</string>
     <string name="add_new_schedule">Add New Schedule</string>
+    <string name="signUp">Sign UP</string>
+    <string name="nic">NIC number</string>
+    <string name="passWordComfirm">Comfirm Password</string>
+    <string name="email">Email</string>
 </resources>

@@ -6,7 +6,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_page_buttons_custom"
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <EditText
@@ -27,8 +27,8 @@
         android:paddingTop="5dp"
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
-        android:textColor="@android:color/background_dark"
-        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/white"
         android:textStyle="bold" />
 
     <EditText
@@ -49,8 +49,8 @@
         android:paddingTop="5dp"
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
-        android:textColor="@android:color/background_dark"
-        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/white"
         android:textStyle="bold" />
 
     <Button
@@ -64,7 +64,7 @@
         android:textSize="17sp" />
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/signUp"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
@@ -76,19 +76,18 @@
     <TextView
         android:id="@+id/regLink"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
-        android:layout_marginBottom="60dp"
         android:text="@string/reg"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
@@ -106,12 +105,12 @@
         app:srcCompat="@drawable/trainline" />
 
     <Button
-        android:id="@+id/scanQr"
+        android:id="@+id/signUpBtn"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="520dp"
         android:background="@drawable/login_page_buttons_custom"
-        android:text="@string/scanQr" />
+        android:text="@string/signUp" />
 
 </RelativeLayout>
