@@ -24,4 +24,5 @@
     <string name="price_of_ticket_rs">Price of Ticket(Rs.)</string>
     <string name="type_of_train">Type of Train</string>
     <string name="departure_time">Departure Time</string>
+    <string name="add_new_schedule">Add New Schedule</string>
 </resources>

@@ -196,6 +196,18 @@
             android:layout_marginTop="-15dp"
             android:padding="15dp">
 
+            <Button
+                android:id="@+id/add_ts"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:text="@string/add_new_schedule"
+                android:background="@drawable/btn"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:fontFamily="@font/baloo"
+                android:layout_centerHorizontal="true"
+                />
 
         </RelativeLayout>
 
