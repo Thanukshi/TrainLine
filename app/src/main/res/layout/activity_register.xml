@@ -16,9 +16,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="74dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
+        android:autofillHints=""
         android:background="@drawable/edittextbox1"
         android:ems="10"
         android:hint="@string/userName"
@@ -29,8 +30,7 @@
         android:paddingBottom="5dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        android:textStyle="bold"
-        android:autofillHints="" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/nic"
@@ -39,9 +39,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="74dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
+        android:autofillHints=""
         android:background="@drawable/edittextbox1"
         android:ems="10"
         android:hint="@string/nic"
@@ -52,8 +53,7 @@
         android:paddingBottom="5dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        android:textStyle="bold"
-        android:autofillHints="" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/email"
@@ -62,9 +62,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="74dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="310dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
+        android:autofillHints=""
         android:background="@drawable/edittextbox1"
         android:ems="10"
         android:hint="@string/email"
@@ -75,8 +76,7 @@
         android:paddingBottom="5dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        android:textStyle="bold"
-        android:autofillHints="" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/passWord"
@@ -85,9 +85,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="76dp"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="390dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
+        android:autofillHints=""
         android:background="@drawable/edittextbox1"
         android:ems="10"
         android:hint="@string/passWord"
@@ -98,8 +99,7 @@
         android:paddingBottom="5dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        android:textStyle="bold"
-        android:autofillHints="" />
+        android:textStyle="bold" />
 
 
     <EditText
@@ -109,9 +109,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="76dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="470dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
+        android:autofillHints=""
         android:background="@drawable/edittextbox1"
         android:ems="10"
         android:hint="@string/passWordComfirm"
@@ -122,8 +123,7 @@
         android:paddingBottom="5dp"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        android:textStyle="bold"
-        android:autofillHints="" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/signUp"
@@ -147,7 +147,31 @@
         android:paddingBottom="5dp"
         app:srcCompat="@drawable/trainline" />
 
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="540dp"
+        android:buttonTint="#0fa37c"
+        android:text="@string/passenger1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
 
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="540dp"
+        android:buttonTint="#0fa37c"
+        android:text="@string/driver"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

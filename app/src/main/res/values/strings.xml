@@ -30,4 +30,7 @@
     <string name="nic">NIC number</string>
     <string name="passWordComfirm">Comfirm Password</string>
     <string name="email">Email</string>
+    <string name="passenger">" Passenger"</string>
+    <string name="driver">Driver</string>
+    <string name="passenger1">Passenger</string>
 </resources>
