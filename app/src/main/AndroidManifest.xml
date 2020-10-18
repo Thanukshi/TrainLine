@@ -13,9 +13,9 @@
         <activity android:name=".AdminActivity" />
         <activity android:name=".Dashboard" />
         <activity android:name=".BookingActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".SeatBook" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SeatBook">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
