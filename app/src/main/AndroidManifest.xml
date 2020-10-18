@@ -5,16 +5,17 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/trainline"
-        android:label="@string/topic"
+        android:label="@string/app_name"
         android:roundIcon="@drawable/trainline"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TrainSchedule"></activity>
+        <activity android:name=".SeatBook"></activity>
         <activity android:name=".AdminActivity" />
+        <activity android:name=".Dashboard" />
         <activity android:name=".BookingActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".Dashboard">
+        <activity android:name=".TrainSchedule">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
