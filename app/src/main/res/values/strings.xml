@@ -9,4 +9,7 @@
     <string name="scanQr">Scan QR Code</string>
     <string name="reg">Don\'t Have An Account?<a href="">Sign-Up Now</a></string>
     <string name="logo">Logo</string>
+    <string name="topic">Train Line</string>
+    <string name="booking">Booking</string>
+    <string name="expand_all">Expand ALL</string>
 </resources>

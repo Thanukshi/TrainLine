@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="74dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
         android:background="@drawable/edittextbox1"
@@ -28,7 +28,6 @@
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
         android:textColor="@android:color/background_dark"
-        android:textColorHint="@android:color/black"
         android:textStyle="bold" />
 
     <EditText
@@ -38,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="74dp"
         android:layout_marginLeft="76dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="74dp"
         android:layout_marginRight="76dp"
         android:background="@drawable/edittextbox1"
@@ -50,7 +49,6 @@
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
         android:textColor="@android:color/background_dark"
-        android:textColorHint="@android:color/black"
         android:textStyle="bold" />
 
     <Button
@@ -58,7 +56,7 @@
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="540dp"
         android:background="@drawable/login_page_buttons_custom"
         android:text="@string/guestBtn"
         android:textSize="17sp" />
@@ -68,15 +66,15 @@
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="480dp"
         android:background="@drawable/login_page_buttons_custom"
         android:text="@string/loginBtn"
         android:textSize="17sp" />
 
     <TextView
         android:id="@+id/regLink"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -85,10 +83,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="611dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="120dp"
         android:text="@string/reg"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
@@ -97,21 +95,12 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="167dp"
+        android:layout_height="350dp"
         android:contentDescription="@string/logo"
         android:paddingLeft="10dp"
         android:paddingTop="5dp"
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
         app:srcCompat="@drawable/trainline" />
-
-    <Button
-        android:id="@+id/scanQr"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="480dp"
-        android:background="@drawable/login_page_buttons_custom"
-        android:text="@string/scanQr" />
 
 </RelativeLayout>

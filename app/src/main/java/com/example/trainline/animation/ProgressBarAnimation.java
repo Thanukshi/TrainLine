@@ -7,8 +7,6 @@ import android.view.animation.Transformation;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.trainline.LoginActivity;
-
 public class ProgressBarAnimation extends Animation {
 
     //Declare the variable in main xml layout
@@ -37,7 +35,7 @@ public class ProgressBarAnimation extends Animation {
 
         //Checking Progress
         if (value == toTime){
-           // context.startActivities(context,LoginActivity.class);
+            context.startActivities(context,LoginActivity.class);
         }
     }
 }
