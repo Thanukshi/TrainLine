@@ -16,4 +16,5 @@
     <string name="history">History</string>
     <string name="confirmed">Confirmed</string>
     <string name="finished">Finished</string>
+    <string name="to_do_admin">To Do Admin</string>
 </resources>
