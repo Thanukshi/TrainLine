@@ -11,4 +11,7 @@
     <string name="topic">Train Line</string>
     <string name="booking">Booking</string>
     <string name="expand_all">Expand ALL</string>
+    <string name="trips">Trips</string>
+    <string name="receipts">Receipts</string>
+    <string name="history">History</string>
 </resources>
