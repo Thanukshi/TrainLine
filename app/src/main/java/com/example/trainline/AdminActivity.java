@@ -21,7 +21,7 @@ public class AdminActivity extends AppCompatActivity {
         trainSchedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent scheduleTrain = new Intent(AdminActivity.this, TrainShcedule.class);
+                Intent scheduleTrain = new Intent(AdminActivity.this, TrainSchedule.class);
                 startActivity(scheduleTrain);
             }
         });
