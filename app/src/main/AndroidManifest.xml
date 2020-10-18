@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/trainline"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BookingActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".Dashboard">
             <intent-filter>
