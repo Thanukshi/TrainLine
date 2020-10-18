@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/btn_gradient_welcome"
     tools:context=".BookingActivity">
 
     <LinearLayout
@@ -57,6 +58,7 @@
                 android:padding="10dp"
                 android:text="@string/booking"
                 android:fontFamily="@font/aclonica"
+                android:textColor="#ffffff"
                 android:textSize="30sp"/>
 
         </RelativeLayout>

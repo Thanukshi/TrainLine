@@ -37,12 +37,12 @@
             android:padding="15dp">
 
             <Button
-                android:id="@+id/booking"
+                android:id="@+id/tSchedule"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@drawable/btn"
-                android:text="@string/booking"
-                android:textSize="40dp"
+                android:text="@string/add_train_schedule"
+                android:textSize="25dp"
                 android:textColor="@color/topicColor"/>
 
 

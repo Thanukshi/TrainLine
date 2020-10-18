@@ -17,4 +17,5 @@
     <string name="confirmed">Confirmed</string>
     <string name="finished">Finished</string>
     <string name="to_do_admin">To Do Admin</string>
+    <string name="add_train_schedule">Train Schedule</string>
 </resources>
