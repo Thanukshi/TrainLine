@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient_welcome"
-    tools:context=".TrainShcedule">
+    tools:context=".TrainSchedule">
 
     <LinearLayout
         android:id="@+id/ll1"
@@ -29,7 +29,7 @@
                 android:textColor="@color/topicColor"/>
 
             <ImageView
-                android:id="@+id/image1_ad"
+                android:id="@+id/image1_ts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_baseline_arrow_back"
@@ -212,6 +212,4 @@
         </RelativeLayout>
 
     </LinearLayout>
-
-
 </ScrollView>
